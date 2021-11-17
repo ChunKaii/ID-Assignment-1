@@ -17,11 +17,18 @@ h1{
     width: 500px;
     padding: 20px;
 }
-.small-box{
+.contact-box{
     text-align: center;
     background-color: #1F301A;
     color: white;
     width: 180px;
+    padding: 10px;
+}
+.title-box{
+    text-align: center;
+    background-color: #1F301A;
+    color: white;
+    width: 240px;
     padding: 10px;
 }
 .align{
@@ -34,4 +41,8 @@ label {
 .option {
     display: inline-block;
     width: 60px;
+}
+.space-around{
+    display: flex;
+    justify-content: space-around;
 }
