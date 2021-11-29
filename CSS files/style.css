@@ -10,26 +10,28 @@ h1{
 .flex-container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+}
+.image-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 .directory-container{
     display: flex;
     flex-wrap: nowrap;
+    align-self: center;
     justify-content: center;
 
 }
+/* Box for background on information about me in the About Me page */
 .big-box{
     background-color: #1F301A;
     color: white;
     width: 500px;
     padding: 20px;
 }
-.contact-box{
-    text-align: center;
-    background-color: #1F301A;
-    color: white;
-    width: 180px;
-    padding: 10px;
-}
+/* Individual box containing the directory options in the top of the page */
 .directory-box{
     text-align: center;
     background-color: #1F301A;
@@ -37,12 +39,40 @@ h1{
     width: 170px;
     padding: 10px;
 }
+.shortcut-box{
+    text-align: center;
+    background-color: #3D772C;
+    color: white;
+    width: 170px;
+    padding: 10px;
+}
+.semititle{
+    text-align: center;
+    background-color: #176A64;
+    color: white;
+    width: 170px;
+    padding: 10px;
+}
+/* Box for background on the title displaying what the page is */
 .title-box{
     text-align: center;
     background-color: #1F301A;
     color: white;
     width: 240px;
     padding: 10px;
+}
+.image-box{
+    text-align: center;
+    color: black;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.education-box{
+    text-align: center;
+    color: black;
+    flex-wrap: wrap;
+    width: 400px;
+    width: 100%;
 }
 .align{
     text-align: center;
@@ -59,6 +89,22 @@ label {
     display: flex;
     justify-content: space-around;
 }
+#award{
+    margin-top: 0%;
+    padding-bottom: 0%;
+}
+#work{
+    margin-top: 0%;
+    padding-bottom: 0%;
+}
+#education{
+    margin-top: 0%;
+    padding-bottom: 0%;
+}
+#top{
+    margin-top: 0%;
+    padding-bottom: 0%;
+}
 @media screen and (max-width: 576px) {
     .directory-box{
         text-align: center;
@@ -67,5 +113,10 @@ label {
         width: 80px;
         padding: 10px;
         font-size: smaller;
+    }
+    .image-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
