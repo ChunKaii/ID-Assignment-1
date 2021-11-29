@@ -59,3 +59,13 @@ label {
     display: flex;
     justify-content: space-around;
 }
+@media screen and (max-width: 576px) {
+    .directory-box{
+        text-align: center;
+        background-color: #1F301A;
+        color: white;
+        width: 80px;
+        padding: 10px;
+        font-size: smaller;
+    }
+}
