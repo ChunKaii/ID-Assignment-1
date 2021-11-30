@@ -408,7 +408,7 @@ h1{
     text-align: center;
     background-color: #1F301A;
     color: white;
-    width: 240px;
+    width: 220px;
     padding: 10px;
 }
 .image-box{
@@ -456,6 +456,10 @@ label {
     margin-top: 0%;
     padding-bottom: 0%;
 }
+#projects{
+    margin-top: 0%;
+    padding-bottom: 0%;
+}
 @media screen and (max-width: 576px) {
     .directory-box{
         text-align: center;
@@ -470,13 +474,6 @@ label {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .title-box{
-        text-align: center;
-        background-color: #1F301A;
-        color: white;
-        width: 160px;
-        padding: 5px;
-    }
     img{
         max-width: 80%;
         height: auto;
@@ -485,7 +482,7 @@ label {
         display: block;
     }
     .logo{
-        width: 80px;
-        height: 60px;
+        width: 50px;
+        height: 40px;
     }
 }
