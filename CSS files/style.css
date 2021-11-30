@@ -429,7 +429,8 @@ h1{
 }
 label {
     display: inline-block;
-    width: 100px;
+    text-align: left;
+    width: 130px;
 }
 .option {
     display: inline-block;
@@ -468,5 +469,9 @@ label {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    img{
+        max-width: 80%;
+        height: auto;
     }
 }
