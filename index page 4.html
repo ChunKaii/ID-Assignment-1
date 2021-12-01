@@ -3,10 +3,9 @@
         <meta name="viewport" content="width=device-width">
         <title>Contact Me!</title>
         <link href="./CSS files/style.css" rel="stylesheet" type="text/css" />
-        <script src="./JavaScript/script.js"></script>
     </head>
     <body style="background-color:#F7CAA3">
-        <div class="directory-container">
+        <nav class="directory-container">
             <a href="index.html">
                 <h4 class="directory-box">About Me</h4>
             </a>
@@ -19,60 +18,60 @@
             <a href="index page 4.html">
                 <h4 class="directory-box">Contact Me</h4>
             </a>
-        </div>
+        </nav>
 
         <header class="flex-container">
             <h1 class="title-box">Contact Me!</h1>   
         </header>
-        <div class="flex-container">
+        <main class="flex-container">
             <h3>My Socials</h3>
-        </div>
+        </main>
 
-        <div class="image-container">
-            <div class="image-box">
+        <section class="image-container">
+            <article class="image-box">
                 <img src="./Images/Contact related/LinkedIn image.png" width="220" height="220">
                 <a href="https://www.linkedin.com/in/limchunkai">
                     <p>Click to view my LinkedIn</p>
                 </a>
                 <br>
                 <br>
-            </div>
-            <div class="image-box">
+            </article>
+            <article class="image-box">
                 <img src="./Images/Contact related/Instagram image.png" width="220" height="220">
                 <a href="https://www.instagram.com/nyr.elle">
                     <p>Click to view my Instagram</p>
                 </a>
                 <br>
                 <br>
-            </div>
-        </div>
+            </article>
+        </section>
 
-        <div class="flex-container">
+        <section class="flex-container">
             <h3>Contact Information</h3>
-        </div>
+        </section>
 
-        <div class="flex-container">
-            <div class="image-box">
+        <section class="flex-container">
+            <article class="image-box">
                 <img src="./Images/Contact related/Gmail image.png" width="220" height="220">
                 <p>Nyrellelimm@gmail.com</p>
                 <br>
                 <br>
-            </div>
-        </div>
+            </article>
+        </section>
 
-        <div class="flex-container">
-            <h3>Contact me by providing your information!</h3>
-        </div>
-        <div class="align">
-            <form name="contact" action="" onsubmit="return confirmSubmission()">
+        <section class="flex-container">
+            <h3>Email me by typing below!</h3>
+        </section>
+        <section class="align">
+            <form name="contact" action="">
                 <label for="name">Name:</label>
                 <input type="text" id="name" placeholder="Enter your name" required>
                 <br>
                 <label for="email">Email address:</label>
                 <input type="email" id="email" placeholder="Enter your email" required>
                 <br>
-                <label for="reason">Reason for contact:</label>
-                <input type="text" id="reason" placeholder="Enter your reason" required>
+                <label for="reason">Reason for email:</label>
+                <input type="text" id="reason" placeholder="Enter your reason/content" required>
                 <br>
                 <label>Are you a: </label>
                 <input type="radio" name="radio" id="student" required>
@@ -82,11 +81,12 @@
                 <label for="teacher" class="option">Teacher</label>
                 <br>
 
-                <button onclick="confirmSubmission()">Submit</button>
+                <button onclick="location.href='thank you page.html'" type="button">Submit</button>
 
             </form>
             <br>
             <br>
-        </div>
+        </section>
+        <script src="./JavaScript/script.js"></script>
     </body>
 </html>
