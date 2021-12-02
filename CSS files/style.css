@@ -444,11 +444,11 @@ h1{
 label {
     display: inline-block;
     text-align: left;
-    width: 130px;
+    width: 120px;
 }
 .option {
     display: inline-block;
-    width: 60px;
+    width: 80px;
 }
 .space-around{
     display: flex;
