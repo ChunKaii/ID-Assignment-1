@@ -3,6 +3,6 @@
 function alertuser(){
     let answer = confirm("Are you ready to submit with all your desired information inputted?");
     if (answer){
-        window.location.href='thank you page.html';
+        window.location.href='thank-you-page.html';
     }
 }
