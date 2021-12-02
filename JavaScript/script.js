@@ -1,9 +1,7 @@
-function thankyouMessage(){
-    let x = document.getElementById("message");
-    if (x.style.display == "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
+function alertuser(){
+    let answer = confirm("Are you ready to submit with all your desired information inputted?");
+    if (answer){
+        window.location.href='thank you page.html';
     }
 }
 function reset(){
