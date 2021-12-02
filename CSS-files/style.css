@@ -410,7 +410,7 @@ h1{
     text-align: center;
     background-color: #3D772C;
     color: white;
-    width: 170px;
+    width: 165px;
     padding: 10px;
 }
 /* Changing of box colours when cursor hovers over */
@@ -418,14 +418,14 @@ h1{
     text-align: center;
     background-color: blueviolet;
     color: white;
-    width: 170px;
+    width: 165px;
     padding: 10px;
 }
 .semititle{
     text-align: center;
     background-color: #176A64;
     color: white;
-    width: 170px;
+    width: 165px;
     padding: 10px;
 }
 /* Box for background on the title displaying what the page is */
@@ -494,7 +494,41 @@ label {
 }
 
 /* Media queries to fit the page */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 750px) {
+  .directory-box{
+    text-align: center;
+    background-color: #1F301A;
+    color: white;
+    width: 120px;
+    padding: 10px;
+    font-size: smaller;
+}
+.shortcut-box{
+  text-align: center;
+  background-color: #3D772C;
+  color: white;
+  width: 165px;
+  padding: 10px;
+  font-size: smaller;
+}
+.directory-box:hover{
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+  width: 120px;
+  padding: 10px;
+  font-size: smaller;
+}
+.shortcut-box:hover{
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+  width: 165px;
+  padding: 10px;
+  font-size: smaller;
+}
+}
+@media screen and (max-width: 650px) {
     .directory-box{
         text-align: center;
         background-color: #1F301A;
@@ -502,6 +536,14 @@ label {
         width: 80px;
         padding: 10px;
         font-size: smaller;
+    }
+    .directory-box:hover{
+      text-align: center;
+      background-color: blueviolet;
+      color: white;
+      width: 80px;
+      padding: 10px;
+      font-size: smaller;
     }
     .image-container{
         display: flex;
