@@ -348,6 +348,9 @@
     display: none;
   }
 
+
+/* Text related styling */
+/* ========================================================================= */
 p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -357,6 +360,9 @@ h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Containers which assorts the position of the flexboxes within */
+/* ========================================================================= */
 .flex-container{
     display: flex;
     justify-content: center;
@@ -374,6 +380,10 @@ h1{
     justify-content: center;
 
 }
+
+/* Boxes for the different individual flexboxes */
+/* ========================================================================= */
+
 /* Box for background on information about me in the About Me page */
 .big-box{
     background-color: #1F301A;
@@ -403,6 +413,7 @@ h1{
     width: 170px;
     padding: 10px;
 }
+/* Changing of box colours when cursor hovers over */
 .shortcut-box:hover{
     text-align: center;
     background-color: blueviolet;
@@ -438,6 +449,8 @@ h1{
     width: 400px;
     width: 100%;
 }
+
+/* classes to give style properties to individual texts/images */
 .align{
     text-align: center;
 }
@@ -457,6 +470,8 @@ label {
 .none {
   display: none;
 }
+
+/* Setting of id for the different sections for navigation in page 2 html */
 #award{
     margin-top: 0%;
     padding-bottom: 0%;
@@ -477,6 +492,8 @@ label {
     margin-top: 0%;
     padding-bottom: 0%;
 }
+
+/* Media queries to fit the page */
 @media screen and (max-width: 576px) {
     .directory-box{
         text-align: center;
