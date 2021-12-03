@@ -25,6 +25,16 @@ Link to wireframe: https://xd.adobe.com/view/79da9c22-8de9-4db3-96cf-144fc52880e
 * Usage of slideshow of images which moves every few seconds to provide more interactivity
   
 # Technologies Used
+## Language used
+* HTML
+* JavaScript
+* CSS
+
+## Frameworks used
+None
+
+## Library used
+* HTML code library
 
 # Testing
 ## Testing process via senarios
